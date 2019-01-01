@@ -45,7 +45,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-payment-protocol.git"
+    "url": "https://github.com/LitecoinZ/bitcore-payment-protocol.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
@@ -57,10 +57,10 @@
     "protobufjs": "=5.0.3"
   },
   "peerDependencies": {
-    "bitcore-lib": "=0.16.0"
+    "bitcore-lib-litecoinz": "git+https://github.com/LitecoinZ/bitcore-lib-litecoinz.git"
   },
   "devDependencies": {
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#1023e8a99cd42b9241ccafe8e34c52f308c10284",
+    "bitcore-build-litecoinz": "https://github.com/LitecoinZ/bitcore-build-litecoinz.git",
     "brfs": "^2.0.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.0",

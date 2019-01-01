@@ -1,3 +1,3 @@
-var startGulp = require('bitcore-build');
+var startGulp = require('bitcore-build-litecoinz');
 Object.assign(exports, startGulp('payment-protocol'))
 
